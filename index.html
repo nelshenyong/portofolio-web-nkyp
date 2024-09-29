@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicholas Kevin Y. P</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body class="fade-in">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="#"
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="1500"
+          >NKYP</a
+        >
+        <div class="collapse navbar-collapse justify-content-end">
+          <ul
+            class="navbar-nav"
+            data-aos="fade-left"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="1500"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-section">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio-section">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section container">
+      <div class="hero-text">
+        <h1 data-aos="fade-right" data-aos-duration="3000">Hey, I'm Kevin.</h1>
+        <p data-aos="zoom-in-right" data-aos-duration="2000">
+          I am a student studying photography and videography from Indonesia. I
+          focus on developing skills in creating compelling and meaningful
+          visuals, hoping to help individuals and businesses effectively convey
+          their messages through visual media.
+        </p>
+        <a
+          href="#"
+          class="btn btn-primary"
+          data-aos="flip-up"
+          data-aos-duration="2000"
+          >My Projects</a
+        >
+        <div class="socials" data-aos="fade-left" data-aos-duration="1000">
+          <a href=""><i class="bx bxl-instagram"></i></a>
+          <a href=""><i class="bx bxl-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-up" data-aos-duration="2000">
+        <img src="assets/profile.png" alt="NKYP" />
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills-section">
+      <div class="container">
+        <h2>My Skills</h2>
+        <div class="row justify-content-center">
+          <div
+            class="col-md-3 skill-item"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
+            <h4>Creative Vision</h4>
+            <p>
+              I have a strong ability to conceptualize and bring unique visual
+              ideas to life, ensuring each project stands out with its own
+              distinct style and perspective.
+            </p>
+          </div>
+          <div
+            class="col-md-3 skill-item"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <h4>Technical Expertise</h4>
+            <p>
+              Proficient in handling photography and videography equipment,
+              lighting, and editing software, I ensure that the technical
+              aspects of each shoot are executed flawlessly.
+            </p>
+          </div>
+          <div
+            class="col-md-3 skill-item"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
+            <h4>Effective Communication</h4>
+            <p>
+              I excel at understanding client needs and translating their vision
+              into captivating visual stories, ensuring clear and effective
+              collaboration throughout every project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio-section container" id="portfolio-section">
+      <h2>My Portfolio</h2>
+      <div class="row">
+        <div
+          class="col-md-4 portfolio-item"
+          data-aos="flip-left"
+          data-aos-duration="1000"
+        >
+          <img
+            src="assets/porto/1.jpg"
+            alt="Project 1"
+            class="portfolio-image"
+            data-bs-toggle="modal"
+            data-bs-target="#portfolioModal"
+          />
+        </div>
+        <div
+          class="col-md-4 portfolio-item"
+          data-aos="flip-up"
+          data-aos-duration="1000"
+        >
+          <img
+            src="assets/porto/2.jpg"
+            alt="Project 2"
+            class="portfolio-image"
+            data-bs-toggle="modal"
+            data-bs-target="#portfolioModal"
+          />
+        </div>
+        <div
+          class="col-md-4 portfolio-item"
+          data-aos="flip-right"
+          data-aos-duration="1000"
+        >
+          <img
+            src="assets/porto/3.jpg"
+            alt="Project 3"
+            class="portfolio-image"
+            data-bs-toggle="modal"
+            data-bs-target="#portfolioModal"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="contact-section container"
+      id="contact-section"
+      data-aos="flip-up"
+    >
+      <h2>Contact Me</h2>
+      <form class="contact-form" id="contactForm">
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Your Name"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Your Email"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            rows="5"
+            id="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 NKYP. All Rights Reserved. Created by
+        <a href="https://github.com/nelshenyong">Nelshen Yong</a>
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

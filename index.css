@@ -1,0 +1,182 @@
+body {
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in; 
+}
+
+.fade-in.visible {
+    opacity: 1; 
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: #4f62f6;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navbar a:hover {
+  color: #8190ff;
+}
+
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4f62f6;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #666;
+}
+
+.btn-primary {
+  background-color: #4f62f6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+.socials {
+    display: flex;
+    gap: 1vh;
+    margin-top: 2vh ;
+    color: #4f62f6;
+}
+
+.hero-image {
+    max-width: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+}
+
+.skills-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #4f62f6; /* Warna biru langit untuk judul */
+}
+
+.skill-item {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #4f62f6; /* Border biru langit */
+  border-radius: 10px;
+  background-color: #fff; /* Latar belakang putih untuk item keterampilan */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+.portfolio-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.portfolio-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #4f62f6; /* Warna biru langit untuk judul */
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.05);
+}
+
+.contact-section {
+  padding: 50px 0;
+  background-color: #ffffff; /* Latar belakang putih untuk bagian kontak */
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.301); /* Bayangan halus */
+  margin-bottom: 6vh;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #4f62f6; /* Warna biru langit untuk judul */
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #f1f1f1; /* Latar belakang abu-abu cerah untuk input */
+  color: #333; /* Teks input berwarna gelap */
+  border: 1px solid #4f62f6; /* Border biru langit */
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px; /* Sudut membulat */
+}
+
+.contact-form .btn {
+  background-color: #4f62f6; /* Warna biru langit untuk tombol */
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+  color: white; /* Teks tombol berwarna putih */
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #1e1e1e; /* Warna latar belakang footer tetap gelap */
+  color: #cccccc;
+}
+
+footer a {
+  text-decoration: none;
+  color: #4f62f6; /* Warna biru langit untuk link footer */
+}
