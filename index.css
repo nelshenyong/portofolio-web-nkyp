@@ -97,16 +97,16 @@ body {
 .skills-section h2 {
   font-size: 36px;
   margin-bottom: 30px;
-  color: #4f62f6; /* Warna biru langit untuk judul */
+  color: #4f62f6;
 }
 
 .skill-item {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #4f62f6; /* Border biru langit */
+  border: 1px solid #4f62f6; 
   border-radius: 10px;
-  background-color: #fff; /* Latar belakang putih untuk item keterampilan */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  background-color: #fff; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-section {
@@ -117,7 +117,7 @@ body {
 .portfolio-section h2 {
   font-size: 36px;
   margin-bottom: 30px;
-  color: #4f62f6; /* Warna biru langit untuk judul */
+  color: #4f62f6; 
 }
 
 .portfolio-item img {
@@ -125,6 +125,7 @@ body {
   height: auto;
   border-radius: 10px;
   transition: transform 0.3s;
+  margin-top: 3vh;
 }
 
 .portfolio-item:hover img {
@@ -133,9 +134,9 @@ body {
 
 .contact-section {
   padding: 50px 0;
-  background-color: #ffffff; /* Latar belakang putih untuk bagian kontak */
+  background-color: #ffffff; 
   border-radius: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.301); /* Bayangan halus */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.301);
   margin-bottom: 6vh;
 }
 
@@ -143,7 +144,7 @@ body {
   font-size: 36px;
   margin-bottom: 30px;
   text-align: center;
-  color: #4f62f6; /* Warna biru langit untuk judul */
+  color: #4f62f6; 
 }
 
 .contact-form {
@@ -153,30 +154,30 @@ body {
 
 .contact-form input,
 .contact-form textarea {
-  background-color: #f1f1f1; /* Latar belakang abu-abu cerah untuk input */
-  color: #333; /* Teks input berwarna gelap */
-  border: 1px solid #4f62f6; /* Border biru langit */
+  background-color: #f1f1f1;
+  color: #333; 
+  border: 1px solid #4f62f6;
   margin-bottom: 20px;
   width: 100%;
-  border-radius: 5px; /* Sudut membulat */
+  border-radius: 5px; 
 }
 
 .contact-form .btn {
-  background-color: #4f62f6; /* Warna biru langit untuk tombol */
+  background-color: #4f62f6; 
   border-radius: 30px;
   border: none;
   width: 100%;
-  color: white; /* Teks tombol berwarna putih */
+  color: white; 
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
-  background-color: #1e1e1e; /* Warna latar belakang footer tetap gelap */
+  background-color: #1e1e1e;
   color: #cccccc;
 }
 
 footer a {
   text-decoration: none;
-  color: #4f62f6; /* Warna biru langit untuk link footer */
+  color: #4f62f6;
 }
